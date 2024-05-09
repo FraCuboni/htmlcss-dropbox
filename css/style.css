@@ -108,6 +108,19 @@ main{
 
 /* SECOND BOX */
 
+.second-box{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
 
+.sb-left{
+    width: 60%;
+}
+.sb-left>img{
+    width: 100%;
+}
 
-
+.sb-right{
+    width: 40%;
+}
