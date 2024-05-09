@@ -13,6 +13,11 @@ a{
     color: black;
 }
 
+.bluelink{
+    text-decoration: underline;
+    color: blue;
+}
+
 h1{
     font-size: 4em;
 }
@@ -24,6 +29,10 @@ h1{
 .bluebutton{
     color: white;
     background-color: blue;
+}
+
+.whitebutton{
+    border: 1px solid black;
 }
 
 /* HEADER */
@@ -82,8 +91,6 @@ nav>div{
 /* MAIN */
 
 main{
-    min-height: 1000px;
-    background-color: lightgrey;
 }
 main>section{
     padding: 20px 25%;
@@ -99,23 +106,37 @@ main>section{
 .plan-box{
     width: 100%;
     display: flex;
-    background-color: orange;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .vertical-block{
+    border: 2px solid #d0d0d3;
+    min-height: 20px;
     width: calc(100% / 3 - 20px);
-    background-color: blue;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
+.vertical-block>div{
+    padding: 0 10%;
+}
+
+.plan-selector1{
+    text-align: center;
+    border-bottom: 2px solid #d0d0d3;
+}
+.plan-selector1>p{
+    color: red;
+    padding: 5px 0;
+}
+
 .horizontal-block{
     width: 100%;
     min-height: 90px;
-    background-color: greenyellow;
+    border: 2px solid #d0d0d3;
     display: flex;
     flex-wrap: wrap;
 }
@@ -124,6 +145,7 @@ main>section{
     width: 100%;
     height: 20px;
     text-align: center;
+    border-bottom: 2px solid #d0d0d3;
 }
 .hb-text{
     width: calc(100% - (100% / 3 - 20px));
