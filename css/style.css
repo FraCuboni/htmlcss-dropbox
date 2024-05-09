@@ -35,6 +35,9 @@ h1{
     border: 1px solid black;
 }
 
+li::marker{
+    content: none;
+}
 /* HEADER */
 
 header{
@@ -121,14 +124,17 @@ main>section{
 }
 
 .vertical-block>div{
+    display: flex;
+    flex-direction: column;
     padding: 0 10%;
+    justify-content: space-around;
 }
 
 .plan-selector1{
-    text-align: center;
     border-bottom: 2px solid #d0d0d3;
 }
 .plan-selector1>p{
+    text-align: center;
     color: red;
     padding: 5px 0;
 }
