@@ -60,10 +60,12 @@ main{
     min-height: 1000px;
     background-color: lightgrey;
 }
+main>section{
+    padding: 20px 0;
+}
 
 /* FIRST BOX */
 .first-box{
-    padding: 20px 0;
 }
 .first-box:first-child{
     width: 100%;
@@ -123,4 +125,24 @@ main{
 
 .sb-right{
     width: 40%;
+}
+
+/* THIRD BOX */
+
+.third-box{
+    background-color: violet;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.third-box>h3{
+    width: 100%;
+}
+
+.tb-square{
+    width: calc(100% / 3 - 20px);
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
 }
