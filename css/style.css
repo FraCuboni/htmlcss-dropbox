@@ -52,3 +52,38 @@ nav>div{
 .jumbo-right>img{
     max-width: 100%;
 }
+
+/* MAIN */
+
+main{
+    padding: 0 25% 0;
+    height: 1000px;
+    background-color: red;
+}
+
+.first-box{
+    
+}
+.first-box:first-child{
+    width: 100%;
+}
+
+.plan-box{
+    width: 100%;
+    display: flex;
+    background-color: orange;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.vertical-block{
+    width: calc(100% / 3 - 20px);
+    height: 60px;
+    background-color: blue;
+}
+
+.horizontal-block{
+    width: 100%;
+    height: 90px;
+    background-color: greenyellow;
+}
