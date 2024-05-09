@@ -56,12 +56,11 @@ nav>div{
 /* MAIN */
 
 main{
-    padding: 0 25% 0;
     min-height: 1000px;
     background-color: lightgrey;
 }
 main>section{
-    padding: 20px 0;
+    padding: 20px 25%;
 }
 
 /* FIRST BOX */
@@ -112,6 +111,7 @@ main>section{
 
 .second-box{
     width: 100%;
+    background-color: orange;
     display: flex;
     justify-content: flex-start;
 }
@@ -145,4 +145,87 @@ main>section{
     background-color: blue;
     display: flex;
     flex-direction: column;
+}
+
+/* FOURTH-BOX */
+
+.fourth-box{
+    background-color: orange;
+}
+
+/* FIFTH-BOX */
+.fifth-box{
+    padding: 0;
+}
+.fifth-box>.fb-top{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fifth-box>.fb-top>div{
+    width: calc(100% / 3);
+    min-height: 200px;
+}
+
+/*  5B LEFT SIDE */
+
+.fb-left{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fb-left>div{
+    width: 50%;
+}
+.fbl-tl{
+    background-color: green;
+}
+.fbl-tr{
+    background-color: lightblue;
+}
+.fbl-bl{
+    background-color: lightgreen;
+}
+.fbl-br{
+    background-color: violet;
+}
+
+/* 5B MIDDLE */
+
+.fb-middle{
+    background-color: white;
+}
+
+/* 5B RIGHT SIDE */
+
+.fb-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fb-right>div{
+    width: 50%;
+}
+.fbr-tl{
+    background-color: green;
+}
+.fbr-tr{
+    background-color: lightblue;
+}
+.fbr-bl{
+    background-color: lightgreen;
+}
+.fbr-br{
+    background-color: violet;
+}
+
+/* 5B BOTTOM SIDE */
+
+.fb-bottom{
+    background-color: lightskyblue;
+    width: 100%;
+    padding: 0 25%;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
