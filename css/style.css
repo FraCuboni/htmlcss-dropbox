@@ -2,6 +2,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.98em;
 }
 
 /* GENERALI */
@@ -9,6 +11,19 @@
 a{
     text-decoration: none;
     color: black;
+}
+
+h1{
+    font-size: 4em;
+}
+
+.squarebutton{
+    padding: 0.4em 1em;
+}
+
+.bluebutton{
+    color: white;
+    background-color: blue;
 }
 
 /* HEADER */
@@ -30,7 +45,8 @@ nav{
 
 nav>div{
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 30px;
 }
 
 .jumbo{
@@ -42,10 +58,20 @@ nav>div{
 
 .jumbo-top{
     width: 100%;
+    padding-bottom: 30px;
 }
 .jumbo-left{
     width: 30%;
 }
+
+.jumbo-left :first-child{
+    padding-bottom: 20px;
+}
+
+.jumbo-left :last-child{
+    padding-top: 20px;
+}
+
 .jumbo-right{
     width: 70%;
 }
