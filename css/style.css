@@ -102,10 +102,20 @@ main>section{
 /* FIRST BOX */
 .first-box{
 }
+
 .first-box:first-child{
     width: 100%;
 }
 
+.first-box>div>h3{
+    font-size: 2em;
+    padding: 5% 0;
+}
+
+.billing-choice{
+    display: inline-block;
+    padding: 0 5% 5% 0;
+}
 .plan-box{
     width: 100%;
     display: flex;
@@ -120,23 +130,41 @@ main>section{
     width: calc(100% / 3 - 20px);
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    justify-content: space-between;
+    gap:3em;
 }
 
-.vertical-block>div{
+.vertical-block-top{
+    border-bottom: 2px solid #d0d0d3;
+}
+.vertical-block-top>p{
+    text-align: center;
+    color: red;
+    padding: 10px 0;
+}
+
+.vertical-block-bottom{
     display: flex;
     flex-direction: column;
     padding: 0 10%;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
-.plan-selector1{
-    border-bottom: 2px solid #d0d0d3;
+.vb-bot-top{
+
 }
-.plan-selector1>p{
-    text-align: center;
-    color: red;
-    padding: 5px 0;
+
+.vb-bot-mid{
+
+}
+
+.vb-bot-bot{
+    
+}
+
+.or-decoration{
+    border-bottom: 2px solid #d0d0d3;
+    padding-bottom: 1em;
 }
 
 .horizontal-block{
