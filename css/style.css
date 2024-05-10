@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: "Open Sans", sans-serif;
-    font-size: 0.98em;
+    font-size: 0.95em;
 }
 
 /* GENERALI */
@@ -24,6 +24,7 @@ h1{
 
 .squarebutton{
     padding: 0.4em 1em;
+    text-align: center;
 }
 
 .bluebutton{
@@ -126,17 +127,17 @@ main>section{
 
 .vertical-block{
     border: 2px solid #d0d0d3;
-    min-height: 20px;
+    min-height: 2px;
     width: calc(100% / 3 - 20px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap:3em;
 }
 
 .vertical-block-top{
     border-bottom: 2px solid #d0d0d3;
 }
+
 .vertical-block-top>p{
     text-align: center;
     color: red;
@@ -146,25 +147,49 @@ main>section{
 .vertical-block-bottom{
     display: flex;
     flex-direction: column;
-    padding: 0 10%;
-    justify-content: flex-start;
+    padding:10%;
+    justify-content: space-around;
+    gap: 2em;
 }
 
 .vb-bot-top{
-
+}
+.vb-bot-top>h5, .vb-bot-top>p{
+    padding-bottom: 0.5em;
 }
 
 .vb-bot-mid{
+}
 
+.vb-bot-mid>p{
+    padding-bottom: 0.5em;
+}
+
+.vb-b-m-buttons{
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.vb-b-m-buttons>a, .vb-b-m-buttons>div{
+    padding-bottom: 0.5em;
+}
+.or-decoration{
+    border-bottom: 2px solid #d0d0d3;
+    padding-bottom: 2.5em;
 }
 
 .vb-bot-bot{
-    
+    background-color: lightblue;
 }
 
-.or-decoration{
-    border-bottom: 2px solid #d0d0d3;
-    padding-bottom: 1em;
+.vb-bot-bot>h6{
+    padding-bottom: 0.5em;
+}
+
+ul>li{
+    padding-bottom: 0.5em;
 }
 
 .horizontal-block{
