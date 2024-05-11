@@ -254,6 +254,14 @@ ul>li{
 
 .sb-right{
     width: 40%;
+    padding: 2em;
+}
+.sb-right>h5{
+    padding-bottom: 1em;
+}
+
+.sb-right>p{
+    padding-bottom: 2em;
 }
 
 /* THIRD BOX */
