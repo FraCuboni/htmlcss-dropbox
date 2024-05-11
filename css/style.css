@@ -386,11 +386,11 @@ ul>li{
     height: 0;
     padding-bottom: 50%;
     position: relative;
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
 }
 
 .fb-right>div:hover{
-    scale: 0.9;
+    box-shadow: inset 0 0 0 15px rgba(255, 255, 255, 0.4);
 }
 
 .fb-right>div>img{
@@ -404,6 +404,7 @@ ul>li{
 
 .fbr-tl{
     background-color: #d5001f;
+    box-shadow: inset 100% black;
 }
 .fbr-tr{
     background-color: #b4d0e7;
@@ -414,6 +415,7 @@ ul>li{
 .fbr-br{
     background-color: #ffd830;
 }
+
 
 /* 5B BOTTOM*/
 
@@ -444,6 +446,16 @@ ul>li{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.sixth-box>div>p{
+    display: inline-block;
+    text-align: left;
+}
+
+.sixth-box>div>div{
+    display: inline-block;
+    text-align: right;
 }
 
 /* FOOTER */
