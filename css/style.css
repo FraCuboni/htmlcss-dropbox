@@ -325,6 +325,7 @@ ul>li{
 
 .fb-left>div:hover{
     scale: 0.9;
+    cursor: pointer;
 }
 
 .fb-left>div>img{
@@ -386,11 +387,12 @@ ul>li{
     height: 0;
     padding-bottom: 50%;
     position: relative;
-    transition: 0.5s ease-in-out;
+    transition: 0.5s ease-out;
 }
 
 .fb-right>div:hover{
-    box-shadow: inset 0 0 0 15px rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0 0 0 15px rgba(255, 255, 255, 0.6);
+    cursor: pointer;
 }
 
 .fb-right>div>img{
@@ -404,7 +406,6 @@ ul>li{
 
 .fbr-tl{
     background-color: #d5001f;
-    box-shadow: inset 100% black;
 }
 .fbr-tr{
     background-color: #b4d0e7;
@@ -422,19 +423,22 @@ ul>li{
 .fb-bottom{
     background-color: #b4d0e7;
     width: 100%;
-    padding: 0 25%;
+    padding: 7% 25%;
     min-height: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.fb-bottom>*{
+
+.fb-bottom>h3{
     width: 50%;
 }
 
 .fb-bottom>a{
+    width: 30%;
     text-align: center;
+    padding: 0.5em;
 }
 
 /* SIXTH BOX */
