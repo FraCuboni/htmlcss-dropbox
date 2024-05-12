@@ -190,7 +190,6 @@ main>section{
 }
 
 .vb-bot-bot{
-    background-color: lightblue;
 }
 
 .vb-bot-bot>h6{
@@ -218,7 +217,6 @@ ul>li{
 }
 .hb-left{
     width: calc(100% * (5/ 7));
-    background-color: rosybrown;
 }
 
 .hb-left>h5{
