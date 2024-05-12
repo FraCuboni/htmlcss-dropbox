@@ -48,6 +48,7 @@ h5{
 li::marker{
     content: none;
 }
+
 /* HEADER */
 
 header{
@@ -76,6 +77,7 @@ nav>div{
     padding: 150px 15% 0;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .jumbo-top{
@@ -87,11 +89,11 @@ nav>div{
 }
 
 .jumbo-left :first-child{
-    padding-bottom: 20px;
+    padding-bottom: 15%;
 }
 
-.jumbo-left :last-child{
-    padding-top: 20px;
+.jumbo-left>p:last-of-type{
+    padding-top: 15%;
 }
 
 .jumbo-right{
@@ -99,6 +101,12 @@ nav>div{
 }
 .jumbo-right>img{
     max-width: 100%;
+}
+
+.jumbo>i{
+    font-size: 3em;
+    position: absolute;
+    bottom: 3%;
 }
 
 /* MAIN */
@@ -149,7 +157,6 @@ main>section{
 
 .vertical-block-top>p{
     text-align: center;
-    color: red;
     padding: 10px 0;
 }
 
@@ -189,15 +196,23 @@ main>section{
     padding-bottom: 2.5em;
 }
 
-.vb-bot-bot{
+.vb-bot-bot>ul>li{
+    padding-bottom: 0.5em;
+    list-style: url(../img/check-solid.svg);
 }
+.vb-bot-bot>ul>li:before {
+    content: ' ';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    background-image: url(../img/check-solid.svg);
+  }
 
 .vb-bot-bot>h6{
     padding-bottom: 0.5em;
 }
 
-ul>li{
-    padding-bottom: 0.5em;
+{
 }
 
 .horizontal-block{
