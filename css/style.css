@@ -471,8 +471,18 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 50px;
 }
 footer>div{
-    width: calc(100% / 5);
+    width: calc(100% / 5 - 50px);
     padding: 50px 0 0;
+}
+
+footer>div>h6{
+    padding-bottom: 1em;
+}
+
+footer>div>ul>li>a{
+    color: white;
+    padding-bottom: 0.5em;
 }
