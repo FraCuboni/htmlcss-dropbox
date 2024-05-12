@@ -447,17 +447,35 @@ ul>li{
     min-height: 200px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding-bottom: 7%;
 }
 
+.sixth-box :first-child{
+    padding-bottom: 1.5em;
+}
+
+.sixth-box>div:first-of-type{
+    border-top: 1px solid black;
+}
+
+.sixth-box>div{
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+.sixth-box>div>*{
+    padding: 2em 0;
+}
+
+
 .sixth-box>div>p{
-    display: inline-block;
-    text-align: left;
+    width: 95%;
 }
 
 .sixth-box>div>div{
     display: inline-block;
-    text-align: right;
+    width: 5%;
 }
 
 /* FOOTER */
@@ -488,5 +506,5 @@ footer>div>ul>li>a{
 .languagesel{
     padding-right: 10%;
     padding-top: 20%;
-    border-top: 2px solid white;
+    border-top: 1px solid white;
 }
