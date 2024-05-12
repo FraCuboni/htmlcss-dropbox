@@ -486,3 +486,9 @@ footer>div>ul>li>a{
     color: white;
     padding-bottom: 0.5em;
 }
+
+.languagesel{
+    padding-right: 10%;
+    padding-top: 20%;
+    border-top: 2px solid white;
+}
