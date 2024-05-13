@@ -70,6 +70,22 @@ nav{
     align-items: center;
 }
 
+.help-box{
+    
+}
+
+.help-button{
+    z-index: 5;
+    transition: 1s;
+    position: relative;
+    background-color: red;
+}
+
+.help-button:hover{
+    height: 100px;
+}
+
+
 nav>div{
     display: flex;
     align-items: center;
@@ -501,7 +517,6 @@ main>section{
 }
 .question{
     background-color: white;
-    transition: 1s;
     z-index: 5;
     padding: 2em 0;
     width: 95%;
@@ -510,16 +525,11 @@ main>section{
 .lil-arrow{
     width: 5%;
     z-index: 6;
-}
-
-.question, .lil-arrow{
     padding: 2em 0;
 }
 
 .question-box:hover{
     padding-bottom: 10%;
-    color: black;
-    z-index: 2;
 }
 
 .answer{
