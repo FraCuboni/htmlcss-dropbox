@@ -6,6 +6,10 @@
     font-size: 0.98em;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* GENERALI */
 
 a{
@@ -78,7 +82,7 @@ nav>div{
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    z-index: -2;
+    z-index: 1;
 }
 
 .jumbo-top{
@@ -479,7 +483,7 @@ main>section{
     padding-bottom: 7%;
 }
 
-.sixth-box :first-child{
+.sixth-box>h3{
     padding-bottom: 1.5em;
 }
 
@@ -487,25 +491,50 @@ main>section{
     border-top: 1px solid black;
 }
 
-.sixth-box>div{
+.box-domanda{
     width: 100%;
     border-bottom: 1px solid black;
     display: flex;
+    transition: 1s;
+    flex-wrap: wrap;
+    position: relative;
 }
-
-.sixth-box>div>*{
+.domanda{
+    background-color: white;
+    transition: 1s;
+    z-index: 5;
     padding: 2em 0;
-}
-
-
-.sixth-box>div>p{
     width: 95%;
 }
 
-.sixth-box>div>div{
-    display: inline-block;
+.freccetta{
     width: 5%;
+    z-index: 6;
 }
+
+.domanda, .freccetta{
+    padding: 2em 0;
+}
+
+.box-domanda:hover{
+    padding-bottom: 10%;
+    color: black;
+    z-index: 2;
+}
+
+.risposta{
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    font-weight: bolder;
+}
+
+
+
 
 /* FOOTER */
 
