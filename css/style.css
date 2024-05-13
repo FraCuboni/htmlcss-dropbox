@@ -232,11 +232,19 @@ main>section{
     padding-bottom: 0.5em;
 }
 
-.vb-bot-mid{
+.vb-bot-mid>div{
+    display: flex;
 }
 
-.vb-bot-mid>p{
+.vb-bot-mid>div>*{
     padding-bottom: 0.5em;
+}
+
+.vb-bot-mid>div>p{
+    width: 90%;
+}
+.vb-bot-mid>div>i{
+    width: 10%;
 }
 
 .vb-b-m-buttons{
@@ -254,17 +262,27 @@ main>section{
     padding-bottom: 2.5em;
 }
 
-.vb-bot-bot>ul>li{
-    padding-bottom: 0.5em;
-    list-style: url(../img/check-solid.svg);
+ul.checked-list{
+	list-style: none;
+	padding-left: 0;
 }
-.vb-bot-bot>ul>li:before {
-    content: ' ';
-    display: inline-block;
-    height: 1em;
+
+ul.checked-list li{
+    position: relative;
+	padding-left: 1em;
+	margin-bottom: 0.5em;
+}
+ul.checked-list>li:before{
+    position: absolute;
+    left: 0;
+    top: 0.1em;
+    content:"";
     width: 1em;
-    background-image: url(../img/check-solid.svg);
-  }
+    height: 1em;
+    background-repeat: no-repeat;
+
+    background-image: url(../img/check-solid.svg) ;
+}
 
 .vb-bot-bot>h6{
     padding-bottom: 0.5em;
