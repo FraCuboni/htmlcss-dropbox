@@ -491,7 +491,7 @@ main>section{
     border-top: 1px solid black;
 }
 
-.box-domanda{
+.question-box{
     width: 100%;
     border-bottom: 1px solid black;
     display: flex;
@@ -499,7 +499,7 @@ main>section{
     flex-wrap: wrap;
     position: relative;
 }
-.domanda{
+.question{
     background-color: white;
     transition: 1s;
     z-index: 5;
@@ -507,22 +507,22 @@ main>section{
     width: 95%;
 }
 
-.freccetta{
+.lil-arrow{
     width: 5%;
     z-index: 6;
 }
 
-.domanda, .freccetta{
+.question, .lil-arrow{
     padding: 2em 0;
 }
 
-.box-domanda:hover{
+.question-box:hover{
     padding-bottom: 10%;
     color: black;
     z-index: 2;
 }
 
-.risposta{
+.answer{
     width: 100%;
     background-color: white;
     position: absolute;
